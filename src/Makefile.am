@@ -12,7 +12,6 @@ video_api_test_LDADD = \
 	-lavformat			\
 	-lavutil			\
 	-lswresample		\
-	-L${libdir}			\
 	-ldrm				\
 	-lnx_video_api		\
 	-lnx_drm_allocator	\
